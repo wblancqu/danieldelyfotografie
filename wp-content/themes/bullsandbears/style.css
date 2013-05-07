@@ -15,6 +15,7 @@ Tags: black, white, red, fixed-width, featured-images, custom-menu, translation-
 /*------------------------------ PAGE ------------------------------*/
 @import url(css/font.css);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
 html {
 	background:url(images/background.png) left top repeat;
 }
@@ -30,6 +31,11 @@ h1, h2, h3, h4, h5, h6, a.post_ttl {
 	text-decoration:none;
 }
 
+h1.site_ttl {
+	color:#ffffff;
+	font-family:'Tangerine';
+	font-size:48px;
+}
 
 /*------------------------------ MENU ------------------------------*/
 #mainmenu a {
