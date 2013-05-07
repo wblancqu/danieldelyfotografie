@@ -78,9 +78,9 @@ else echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:
 				<?php get_search_form(); ?>
 			</div>
 			
-			<div id='secondarymenu'>
+			<!-- <div id='secondarymenu'>
 				<?php wp_nav_menu('depth=0&theme_location=sec-menu&container_class=menu-topmenu-container&menu_class=menus menu-topmenu&fallback_cb=block_sec_menu');	?>
-			</div>
+			</div> -->
 				
 			
 		</div>
