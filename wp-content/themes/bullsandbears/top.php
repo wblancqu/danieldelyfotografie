@@ -86,8 +86,7 @@ else echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:
 		</div>
 		
 		
-		
-		<?php smt_mobile_menu('sec-menu'); ?>
+		<!-- <?php smt_mobile_menu('sec-menu'); ?> -->
 		<?php smt_mobile_menu('main-menu'); ?>
 		
 		<div id='mainmenu-container'>
