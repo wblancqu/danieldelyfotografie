@@ -31,29 +31,33 @@ h1, h2, h3, h4, h5, h6, a.post_ttl {
 	text-decoration:none;
 }
 
+#logo img {
+	border:groove;
+	border-color: white;
+}
+
 h1.site_ttl {
+	display: block;
 	color:#ffffff;
 	font-family:'Tangerine';
 	font-size:48px;
 	text-shadow:2px 2px grey;
 	position: relative;
+	left: 30px;
 }
 
-.sidebar {
-	font-family: 'Oswald'
-	font-size: 28px;
-	text-align: justify;
+.container {
+	background:url(images/background.png) left top repeat;
+	color: #ffffff;
+}
+
+.sidebar.right.clearfix {
+	font-size: 22.3px;
 	text-indent: 10px;
-	position: relative;
-	top: 40px;
-	display: table-cell;
+	text-align: center;
     vertical-align: middle;
-}
-
-.sidebar img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    color: white;
+    margin: 0px;
 }
 
 /*------------------------------ MENU ------------------------------*/
@@ -195,11 +199,6 @@ span.page-numbers {
 	#content .container{
 		padding:0 8px;
 		width:986px;
-	}
-	#logo {
-		position:absolute;
-		left:50%;
-		margin-left:-113px;
 	}
 	.menusearch {
 		float:right;
