@@ -252,7 +252,7 @@
 			<?php if ($this->get( 'general', 'logosource' )==2&&$this->get( 'general', 'customtext' )!='') { ?>
 				<table class="center">
 					<tr>
-						<td><img src='<?php echo get_template_directory_uri(); ?>/images/daniel.png' alt="Daniël" width="64"/></td>
+						<td><a href='<?php echo home_url(); ?>/'><img src='<?php echo get_template_directory_uri(); ?>/images/daniel.png' alt="Daniël" width="64"/></a></td>
 						<td><h1 class='site_ttl'><?php echo $this->get( 'general', 'customtext' )?></h1></td>
 					</tr>
 				</table>
